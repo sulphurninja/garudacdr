@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-image: url('/wall.jpg');
+    /* Adjust background size, position, etc. as needed */
+    background-size: cover;
+
+    /* Add more styles for the body as needed */
+  }
+
