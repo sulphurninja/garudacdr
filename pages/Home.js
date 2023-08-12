@@ -25,6 +25,7 @@ import ImageForensics from '../components/ImageForensics'
 import CyberThreat from '../components/CyberThreat'
 import YoutubeDelete from '../components/YoutubeDelete'
 import UrlUnshorten from '../components/UrlUnshorten'
+import Head from 'next/head'
 
 export default function Home() {
   return (
