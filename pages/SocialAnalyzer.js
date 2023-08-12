@@ -4,11 +4,14 @@ import Header from '../components/Header'
 import UserNameAnalysis from '../components/UserNameAnalysis'
 import {motion} from 'framer-motion'
 import MobileNumberAnalysis from '../components/MobileNumberAnalysis'
+import Head from 'next/head'
 
 export default function SocialAnalyzer() {
   return (
     <div className="justify-center min-h-screen overflow-hidden  ">
-
+    <Head>
+      <title>Social Analyzer - Garuda</title>
+    </Head>
       <div className='flex md:ml-40 lg:ml-64 justify-evenly space-x-16 md:space-x-44  '>
         <Header />
         <div className=''>

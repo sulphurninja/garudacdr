@@ -29,7 +29,9 @@ import UrlUnshorten from '../components/UrlUnshorten'
 export default function Home() {
   return (
     <div className="justify-center min-h-screen overflow-hidden  ">
-
+    <Head>
+      <title>Home - Garuda</title>
+    </Head>
       <div className='flex md:ml-40 lg:ml-64 justify-evenly space-x-16 lg:space-x-44  '>
         <Header />
         <div className=''>

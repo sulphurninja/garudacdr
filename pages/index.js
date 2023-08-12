@@ -36,6 +36,9 @@ export default function Login() {
 
   return (
     <div className="flex justify-center items-center h-screen">
+    <Head>
+      <title>Login - Garuda</title>
+    </Head>
       <div className=" p-8 bg-gray-100 rounded-lg shadow ">
         <div className='grid grid-cols-3'>
         <div></div>

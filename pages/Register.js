@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 export default function Register() {
   const [username, setUsername] = useState('');
@@ -40,12 +41,15 @@ export default function Register() {
 
   return (
     <div className="flex justify-center items-center h-screen">
-     <div className=" p-8 bg-gray-100 rounded-lg shadow ">
+      <Head>
+        <title>Register - Garuda</title>
+      </Head>
+      <div className=" p-8 bg-gray-100 rounded-lg shadow ">
         <div className='grid grid-cols-3'>
-        <div></div>
-        <div>
-        <img src='logo.png' className='md:h-36 ' />
-        </div>
+          <div></div>
+          <div>
+            <img src='logo.png' className='md:h-36 ' />
+          </div>
         </div>
         <h1 className="md:text-2xl text-sm text-center  font-mono font-bold uppercase mb-4">Garuda Intelligence Console</h1>
         <h2 className='font-mono text-center font-thin'>REGISTER</h2>

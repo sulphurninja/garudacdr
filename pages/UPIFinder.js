@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Header from '../components/Header';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function UPIFinder() {
   const [vpa, setVpa] = useState('');
@@ -22,6 +23,9 @@ export default function UPIFinder() {
 
   return (
     <div className="justify-center min-w-screen  ">
+        <Head>
+      <title>UPI Finder - Garuda</title>
+    </Head>
     <div className='flex md:ml-40 lg:ml-64 justify-evenly space-x-16 md:space-x-44  '>
       <Header />
       <div className=''>
